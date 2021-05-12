@@ -1,8 +1,8 @@
-package ConvertTemp;
+package ConvertTemperature;
 
 import java.util.Scanner;
 
-public class ConvertTemp {
+public class ConvertTemperature {
     static double celsiusFahrenheit(double c){
         return 9*c/5+32;
     }
