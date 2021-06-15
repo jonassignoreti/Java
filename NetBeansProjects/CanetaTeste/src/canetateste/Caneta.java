@@ -1,4 +1,4 @@
-package aula02;
+package canetateste;
 
 public class Caneta {
     private String marca;
@@ -6,7 +6,9 @@ public class Caneta {
     private float tamanho;
     
     void Caneta() {
-        
+        this.cor = null;
+        this.marca = null;
+        this.tamanho = 0;
     }
     public String getCor() {
         return this.cor;
